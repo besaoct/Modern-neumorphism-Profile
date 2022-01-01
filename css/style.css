@@ -24,6 +24,9 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    -ms-user-select: none;
+user-select: none;
+webkit-tap-highlight-color: transparent;
 }
 
 html{
@@ -36,7 +39,7 @@ html{
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
-webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: transparent;
 }
 
 body{
@@ -53,6 +56,10 @@ body.active{
                 -.4rem -.4rem 1rem #333;
     --box-shadow-inset:.4rem .4rem 1rem #111 inset,
                       -.4rem -.4rem 1rem #333 inset;
+    -ms-user-select: none;
+user-select: none;
+webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: transparent;
 }
 
 section{
