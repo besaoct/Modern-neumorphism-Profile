@@ -47,8 +47,22 @@ window.onclick = function(event) {
 
 const audio = document.getElementById("audio");
 const playPause = document.getElementById("play");
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
+const prevBtn = document.getElementById("prev");
+const nextBtn = document.getElementById("next");
+
+
+// Keep track of song
+let songIndex = 1;
+
+// Initially load song details into DOM
+loadSong(songs[songIndex]);
+
+// Update song details
+function loadSong(song) {
+  title.innerText = song;
+  audio.src = `music/${song}.mp3`;
+  cover.src = `images/${song}.jpg`;
+}
 
 
 playPause.addEventListener("click", () => {
