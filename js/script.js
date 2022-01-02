@@ -53,16 +53,20 @@ const nextBtn = document.getElementById("next");
 
 
 playPause.addEventListener("click", () => {
-  if (audio.paused || audio.ended) {
+  if (audio.paused) {
+    playPause.querySelector(".pause-btn").classList.toggle("hide");
+    playPause.querySelector(".play-btn").classList.toggle("hide");
     audio.play();
-    playPause.querySelector(".pause-btn").classList.toggle("hide");
-    playPause.querySelector(".play-btn").classList.toggle("hide");
-   
-  } else {
-    
-    playPause.querySelector(".pause-btn").classList.toggle("hide");
-    playPause.querySelector(".play-btn").classList.toggle("hide");
+  } else if(audio.ended) {
     audio.pause();
+    playPause.querySelector(".pause-btn").classList.toggle("hide");
+    playPause.querySelector(".play-btn").classList.toggle("hide");
+  }
+    else {
+    audio.pause();    
+    playPause.querySelector(".pause-btn").classList.toggle("hide");
+    playPause.querySelector(".play-btn").classList.toggle("hide");
+  
   }
 });
 
