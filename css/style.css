@@ -17,6 +17,7 @@
 @media (max-width: 482px){
 h3.mobh {
     font-size: 38px !important;
+    text-transform:capitalize  !important;
     }}
 
 *{
@@ -574,4 +575,5 @@ section{
 @media (max-width: 482px){
 h3.mobh {
     font-size: 38px !important;
+     text-transform:capitalize  !important;
     }}
