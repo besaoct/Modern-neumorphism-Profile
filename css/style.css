@@ -594,8 +594,8 @@ h3.mobh {
 
 
 .player {
-  width: 250px;
-  height: 50px;
+  width: 240px;
+  height: 60px;
   background-color: var(--background);
   display: flex;
   flex-direction: column;
