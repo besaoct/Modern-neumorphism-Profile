@@ -565,8 +565,14 @@ section{
         width:100%;
         border-right: 0;
     }
-    .mobh{
+
+
+}
+
+@media (max-width:480px){
+
+    h1.mobh{
         style="font-size: 38px;"
     }
-
+    
 }
