@@ -121,7 +121,7 @@ section{
 .head{
     display: none;
 }
-@media (max-width:720px){
+@media (max-width:449px){
 .head .user img{
     margin:1rem 0;
     border:1rem solid transparent;
