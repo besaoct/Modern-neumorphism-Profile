@@ -594,8 +594,8 @@ h3.mobh {
 
 
 .player {
-  width: 300px;
-  height: 120px;
+  width: 260px;
+  height: 80px;
   background-color: var(--background);
   display: flex;
   flex-direction: column;
@@ -713,9 +713,10 @@ h3.mobh {
   visibility: hidden;
 }
 
+
 .player__btn--medium {
-  min-height: 70px;
-  min-width: 70px;
+  min-height: 40px;
+  min-width: 40px;
 }
 
 .blue {
