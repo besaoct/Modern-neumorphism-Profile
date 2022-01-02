@@ -78,7 +78,7 @@ function prevSong() {
     songIndex = songs.length - 1;
   }
 
-  playPause();
+ audio.play();
 }
 
 // Next song
@@ -89,10 +89,8 @@ function nextSong() {
     songIndex = 0;
   }
 
-  playPause();
+  audio.pause();
 }
-
-
 
 // Change song
 prevBtn.addEventListener('click', prevSong);
