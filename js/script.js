@@ -51,18 +51,9 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 
 
-// Keep track of song
-let songIndex = 1;
-loadSong(songs[songIndex]);
-
-// Update song details
-function loadSong(song) {
-  audio.src = `/alag-aasmaan.mp3`;
-}
-
 
 playPause.addEventListener("click", () => {
-  if (audio.paused || audio.ended) {
+  if (audio.paused) {
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");
     audio.play();
@@ -77,24 +68,12 @@ playPause.addEventListener("click", () => {
 
 // Previous song
 function prevSong() {
-  songIndex--;
-
-  if (songIndex < 0) {
-    songIndex = songs.length - 1;
-  }
-loadSong(songs[songIndex]);
- audio.play();
+ audio.ended();
 }
 
 // Next song
 function nextSong() {
-  songIndex++;
-
-  if (songIndex > songs.length - 1) {
-    songIndex = 0;
-  }
-loadSong(songs[songIndex]);
-  audio.pause();
+audio.ended();
 }
 
 // Change song
