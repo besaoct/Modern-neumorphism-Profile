@@ -54,14 +54,15 @@ const nextBtn = document.getElementById("next");
 
 playPause.addEventListener("click", () => {
   if (audio.paused || audio.ended) {
+    audio.play();
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");
-    audio.play();
+   
   } else {
     
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");
-      audio.pause();
+    audio.pause();
   }
 });
 
