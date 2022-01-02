@@ -569,9 +569,9 @@ section{
 
 }
 
-@media (max-width:480px){
+@media (max-width:482px){
 
-    h1.mobh{
+    h3.mobh{
         style="font-size: 38px;"
     }
     
