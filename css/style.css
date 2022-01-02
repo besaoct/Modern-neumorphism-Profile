@@ -572,7 +572,7 @@ section{
 @media (max-width:482px){
 
     h3.mobh{
-        style="font-size: 38px;"
+        style="font-size: 38px !important;"
     }
     
 }
