@@ -53,33 +53,18 @@ const nextBtn = document.getElementById("next");
 
 
 playPause.addEventListener("click", () => {
-  if (audio.paused) {
+  if (audio.paused || audio.ended) {
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");
     audio.play();
   } else {
-    audio.pause();
+    
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");
+      audio.pause();
   }
 });
 
 
 
-// Previous song
-function prevSong() {
- audio.ended();
-}
-
-// Next song
-function nextSong() {
-audio.ended();
-}
-
-// Change song
-prevBtn.addEventListener('click', prevSong);
-nextBtn.addEventListener('click', nextSong);
-
-// Song ends
-audio.addEventListener('ended', nextSong);
 
