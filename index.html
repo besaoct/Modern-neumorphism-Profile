@@ -60,6 +60,28 @@
            <!-- <input type="button" class="btn" value="Print this page" onClick="window.print()"> -->
         </div>
 
+    <div class="player">
+     <audio class="player__audio" controls id="audio">
+       <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Leo%20-%20Trying.mp3" type="audio/mpeg" />
+     </audio>
+
+     <div class="player__controls">
+       <div class="player__btn player__btn--medium" id="backward">
+         <i class="fas fa-backward"></i>
+       </div>
+
+       <div class="player__btn player__btn--medium blue play" id="play">
+         <i class="fas fa-play play-btn"></i>
+         <i class="fas fa-pause pause-btn hide"></i>
+       </div>
+
+       <div class="player__btn player__btn--medium" id="forward">
+         <i class="fas fa-forward"></i>
+       </div>
+     </div>
+   </div>
+        
+        
         <div class="share">
             <a href="https://www.facebook.com/profile.php?id=100072899825075" target="_blank"
                 class="fab fa-facebook-f"></a>
