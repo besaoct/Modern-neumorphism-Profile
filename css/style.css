@@ -595,8 +595,8 @@ h3.mobh {
 
 
 .player {
-  width: 180px;
-  height: 60px;
+  width: 200px;
+  height: 80px;
   background-color: var(--background);
   display: flex;
   flex-direction: column;
@@ -659,8 +659,8 @@ h3.mobh {
 }
 
 .player__btn--medium {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 50px;
+  min-width: 50px;
 }
 
 .blue {
