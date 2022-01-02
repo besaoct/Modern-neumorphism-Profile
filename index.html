@@ -77,22 +77,29 @@
 </div>
 
       <div class="player share">
-     <audio class="player__audio" controls id="audio">
+<!--      <audio class="player__audio" controls id="audio">
        <source src="/alag-aasmaan.mp3" type="audio/mpeg" />
-     </audio>
-
+     </audio> -->
+<audio src="/alag-aasmaan.mp3" id="audio"></audio>
      <div class="player__controls">
-       <div class="player__btn player__btn--medium" id="prev">
+       <div class="player__btn player__btn--medium">
+            <button id="prev">
          <i style="color:red !important" class="fas fa-backward"></i>
+           </button>
        </div>
 
        <div class="player__btn player__btn--medium blue play" id="play">
+            <button id="play">
          <i class="fas fa-play play-btn"></i>
+             
          <i class="fas fa-pause pause-btn hide"></i>
+             </button>
        </div>
 
-       <div class="player__btn player__btn--medium" id="next">
+       <div class="player__btn player__btn--medium" >
+            <button id="next">
          <i style="color:red !important" class="fas fa-forward"></i>
+                   </button>
        </div>
      </div>
   </div>
