@@ -621,8 +621,8 @@ h3.mobh {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: -8px -8px 20px 0px #fff9, -6px -6px 6px 0px #fff9,
-    8px 8px 20px #0001, 5px 5px 6px 0px #0001;
+/*   box-shadow: -8px -8px 20px 0px #fff9, -6px -6px 6px 0px #fff9,
+    8px 8px 20px #0001, 5px 5px 6px 0px #0001; */
   color: var(--gray);
 }
 
