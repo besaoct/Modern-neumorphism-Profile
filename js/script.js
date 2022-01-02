@@ -53,7 +53,12 @@ const nextBtn = document.getElementById("next");
 
 // Keep track of song
 let songIndex = 1;
+loadSong(songs[songIndex]);
 
+// Update song details
+function loadSong(song) {
+  audio.src = `/${song}.mp3`;
+}
 
 
 playPause.addEventListener("click", () => {
