@@ -595,7 +595,7 @@ h3.mobh {
 
 
 .player {
-  width: 220px;
+  width: 250px;
   height: 100px;
   background-color: var(--background);
   display: flex;
@@ -612,7 +612,7 @@ h3.mobh {
   width: 95%;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .player__btn {
