@@ -57,7 +57,7 @@ loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
-  audio.src = `/${song}.mp3`;
+  audio.src = `/alag-aasmaan.mp3`;
 }
 
 
