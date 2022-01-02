@@ -14,7 +14,10 @@
 }
 
 
-
+@media (max-width: 482px){
+h3.mobh {
+    font-size: 38px !important;
+    }}
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -568,11 +571,7 @@ section{
 
 
 }
-
-@media (max-width:482px){
-
-    h3.mobh{
-        style="font-size: 38px !important;"
-    }
-    
-}
+@media (max-width: 482px){
+h3.mobh {
+    font-size: 38px !important;
+    }}
