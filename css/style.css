@@ -90,15 +90,15 @@ section{
 
 .heading{
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     color:var(--black);
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-bottom: 2rem;
 }
 
 .heading span{
     color:var(--green);
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .header{
