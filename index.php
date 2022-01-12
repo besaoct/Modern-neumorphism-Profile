@@ -292,7 +292,7 @@
 
         <h1 class="heading" style="font-family: 'Josefin Sans', sans-serif;"> <span>contact</span> Me</h1>
 
-        <form action="/send.php">
+        <form action="send.php">
             <input type="text" placeholder="your name" name="name" class="box">
             <input type="email" placeholder="your email" name="email"  class="box">
             <input type="text" placeholder="subject" name="subject" class="box">
