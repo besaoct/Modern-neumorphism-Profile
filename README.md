@@ -1,1 +1,1 @@
-# stranfin.github.io
+# https://blackipie.github.io/stranfin
