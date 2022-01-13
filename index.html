@@ -265,7 +265,7 @@
 
         <h1 class="heading" style="font-family: 'Josefin Sans', sans-serif;"> <span>contact</span> Me</h1>
 
-        <form action="https://forms.gle/KebHr4QT5nDD6h1C8">
+        <form action="https://findonasi.cu.ma/send.php">
             <input type="text" placeholder="your name" name="name" class="box">
             <input type="email" placeholder="your email" name="email"  class="box">
             <input type="text" placeholder="subject" name="subject" class="box">
@@ -294,7 +294,16 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
+ <script>
+document.getElementById('sent').onclick = function(){
+Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: '',
 
+});
+};
+ </script>
 </body>
 
 </html>
