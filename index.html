@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stranfin</title>
     <link rel="shortcut icon" href="image/user-img.png" type="image/x-icon">
-
-    <!-- font awesome cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.3.4/sweetalert2.all.min.js" integrity="sha512-aE/WWAoHkQZnPvRxpkvO3+nYiosvBZTv9AJB/quwn6ETQjQOSpNpaiIhmzbMl4RxVQ1QAGQgbZg2dLLVwf4Dug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  <!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.3.4/sweetalert2.min.css" integrity="sha512-jtQXcnq6H9BVx+dOsdudNCZmNe2hBMqcPpnVgeZcV9L3615F4+QMQebbWW9TV2otOSk/kQgum0MpWefB3uL3pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
@@ -265,12 +266,12 @@
 
         <h1 class="heading" style="font-family: 'Josefin Sans', sans-serif;"> <span>contact</span> Me</h1>
 
-        <form action="https://findonasi.cu.ma/send.php">
+        <form action="https://findonasi.cu.ma/send.php" method="Post">
             <input type="text" placeholder="your name" name="name" class="box">
             <input type="email" placeholder="your email" name="email"  class="box">
             <input type="text" placeholder="subject" name="subject" class="box">
             <textarea name="" class="box" placeholder="your message" name="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+            <input type="submit" id="sent" value="send message" class="btn">
         </form>
 
 
