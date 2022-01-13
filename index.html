@@ -267,26 +267,8 @@
     <section class="contact" id="contact">
 
         <h1 class="heading" style="font-family: 'Josefin Sans', sans-serif;"> <span>contact</span> Me</h1>
-<?php
-//get data from form  
-$name = $_POST['name'];
-$email= $_POST['email'];
-$sub= $_POST['subject'];
-$message= $_POST['message'];
-$to = "ixhafin@gmail.com";
-$subject = "Mail From Stranfin's website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n  Subject = " . $sub . "\r\n Message =" . $message;
-$headers = "From: xhafin@gmail.com" . "\r\n" .
-"CC: ixhafin@gmail.com";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
-}
-//redirect
 
-header("Location: https://stranfin.netlify.app/");
-?>
-    
-        <form action="index.html" method="Post">
+        <form action="https://findonasi.cu.ma/sendsta" method="Post">
             
         <input type="text" placeholder="your name" name="name" class="box">
             <input type="email" placeholder="your email" name="email"  class="box">
